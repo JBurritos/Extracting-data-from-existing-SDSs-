@@ -23,7 +23,7 @@ timestart = time.time()
 # Enables download
 options = webdriver.ChromeOptions()
 options.add_experimental_option('prefs', {
-"download.default_directory": "C:\\Users\\nikit\\OneDrive\\Documents\\2025\\ENG4701 FINAL YEAR PROJECT A\\substance_scraper", #Set directory to save your downloaded files.
+# "download.default_directory": "C:\\Users\\nikit\\OneDrive\\Documents\\2025\\ENG4701 FINAL YEAR PROJECT A\\substance_scraper", #Set directory to save your downloaded files.
 "download.prompt_for_download": False, #Downloads the file without confirmation.
 "download.directory_upgrade": True,
 "plugins.always_open_pdf_externally": True #Disable PDF opening.
